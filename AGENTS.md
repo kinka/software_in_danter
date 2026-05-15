@@ -135,26 +135,28 @@ Generated images:
 
 - All project image outputs should be copied into `assets/`.
 - Do not leave project-referenced images only under the Codex generated image directory.
+- Project-facing image references should use `.webp` versions by default after PNG conversion.
+- Keep original `.png` files as source/quality references unless explicitly asked to delete them.
 
 Current first-chapter sample images in `assets/`:
 
-- `assets/第一话_样张_第1-3页.png`
-- `assets/第一话_样张_第4-6页.png`
-- `assets/第一话_样张_第4-6页_v2_意图态软件.png`
-- `assets/第一话_样张_第7-9页.png`
-- `assets/第一话_样张_第7-9页_v2_执行雾.png`
-- `assets/第一话_样张_第10-12页.png`
-- `assets/第一话_样张_第13-15页.png`
-- `assets/第一话_样张_第16-18页.png`
-- `assets/第一话_样张_第19-21页.png`
-- `assets/第一话_样张_第22-24页.png`
+- `assets/第一话_样张_第1-3页.webp`
+- `assets/第一话_样张_第4-6页.webp`
+- `assets/第一话_样张_第4-6页_v2_意图态软件.webp`
+- `assets/第一话_样张_第7-9页.webp`
+- `assets/第一话_样张_第7-9页_v2_执行雾.webp`
+- `assets/第一话_样张_第10-12页.webp`
+- `assets/第一话_样张_第13-15页.webp`
+- `assets/第一话_样张_第16-18页.webp`
+- `assets/第一话_样张_第19-21页.webp`
+- `assets/第一话_样张_第22-24页.webp`
 
 ## Approved V2 Direction
 
 The user approved the v2 direction:
 
-- Use `assets/第一话_样张_第4-6页_v2_意图态软件.png` instead of the original page 4-6 sample.
-- Use `assets/第一话_样张_第7-9页_v2_执行雾.png` instead of the original page 7-9 sample.
+- Use `assets/第一话_样张_第4-6页_v2_意图态软件.webp` instead of the original page 4-6 sample.
+- Use `assets/第一话_样张_第7-9页_v2_执行雾.webp` instead of the original page 7-9 sample.
 - Keep the old versions for comparison; do not delete them unless asked.
 
 The v2 changes were also synced into:
@@ -162,6 +164,8 @@ The v2 changes were also synced into:
 - `漫画改编开发包.md`
 - `第一话_我昨天来过_分镜脚本.md`
 - `意图态软件设定与第一话优化版.md`
+- `软件不存在了_雨果奖目标改写版.md`
+- `软件不存在了_AI大模型危机版.md`
 
 ## Visual Direction
 
@@ -216,4 +220,3 @@ When continuing next week, likely next steps:
 5. Consider generating individual page versions instead of 3-page sheets if higher text/control quality is needed.
 
 Important: continue from the “意图态软件 / 执行雾” definition. Do not revert to a generic “AI bug” explanation.
-
