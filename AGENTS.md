@@ -135,15 +135,14 @@ Generated images:
 
 - All project image outputs should be copied into `assets/`.
 - Do not leave project-referenced images only under the Codex generated image directory.
-- Project-facing image references should use `.webp` versions by default after PNG conversion.
-- Keep original `.png` files as source/quality references unless explicitly asked to delete them.
+- Project-facing image references should use final `.webp` versions by default.
+- Do not keep historical `.png` or superseded sample images in the repository unless explicitly requested.
+- For first-chapter sample sheets, keep only the approved final versions; old page 4-6 and 7-9 samples were removed after v2 replacement.
 
 Current first-chapter sample images in `assets/`:
 
 - `assets/第一话_样张_第1-3页.webp`
-- `assets/第一话_样张_第4-6页.webp`
 - `assets/第一话_样张_第4-6页_v2_意图态软件.webp`
-- `assets/第一话_样张_第7-9页.webp`
 - `assets/第一话_样张_第7-9页_v2_执行雾.webp`
 - `assets/第一话_样张_第10-12页.webp`
 - `assets/第一话_样张_第13-15页.webp`
@@ -157,7 +156,7 @@ The user approved the v2 direction:
 
 - Use `assets/第一话_样张_第4-6页_v2_意图态软件.webp` instead of the original page 4-6 sample.
 - Use `assets/第一话_样张_第7-9页_v2_执行雾.webp` instead of the original page 7-9 sample.
-- Keep the old versions for comparison; do not delete them unless asked.
+- Old page 4-6 and 7-9 samples have been removed from `assets/`; use the v2 WebP files as the current final references.
 
 The v2 changes were also synced into:
 
