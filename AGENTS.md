@@ -90,6 +90,13 @@ The first case centers on 唐阿姨:
 - The system says she has no prior record.
 - The AI delivery platform has optimized away her unclosed / low-confidence fact.
 
+Operational setup:
+
+- The system is not fully delivered at story start.
+- `城市办事通 4.0` is in terminal pre-acceptance gray trial: a few live government-service windows already use it for real citizens, while the old system remains fallback.
+- This explains why 唐阿姨 can be harmed by the system before final delivery: contractually it is not accepted, but operationally it is already doing real work.
+- Use “灰度试运行第三天”, “终验预审会”, and “正式上线延期，灰度扩面暂停”; do not revert to “上线预演日” as if no real users are involved.
+
 The thematic rule:
 
 > 模型可以生成答案，但答案不能替人签名。
@@ -112,8 +119,8 @@ Final core line:
 Primary story / prose:
 
 - `软件不存在了_雨果奖目标改写版.md`
-- `软件不存在了_AI大模型危机版.md`
 - `雨果奖目标修改建议.md`
+- Continue optimizing only `软件不存在了_雨果奖目标改写版.md` as the prose master draft. Do not revive or resync the deleted `软件不存在了_AI大模型危机版.md`.
 
 Core comic development:
 
@@ -164,7 +171,6 @@ The v2 changes were also synced into:
 - `第一话_我昨天来过_分镜脚本.md`
 - `意图态软件设定与第一话优化版.md`
 - `软件不存在了_雨果奖目标改写版.md`
-- `软件不存在了_AI大模型危机版.md`
 
 ## Visual Direction
 
@@ -196,6 +202,15 @@ Important motif:
 ## Current State
 
 First chapter has full 24-page storyboard and generated sample images.
+
+The prose master draft `软件不存在了_雨果奖目标改写版.md` now includes the v2 “意图态软件 / 执行雾” setup and the post-review revision:
+
+- Lin Che, Deng Yue, and Xu Gong only preserve 27 high-risk livelihood rules, not the whole system.
+- 唐阿姨's evidence is now a queue ticket plus a damaged `补齐补正通知书`; the core harm is that a `待补正` fact is downgraded into “无有效办件”.
+- `执行雾` now keeps compliant traces such as hashes and summaries, but loses the low-confidence facts needed to prove individual reality.
+- Lin Che's old approval debt is revealed later, after `OPTIMIZE UNVERIFIED_FACT REMOVE`, instead of being explained early.
+- Deng Yue's signature now triggers a risk acceptance flow and freezes automatic optimization; it is not just a romantic text-box gesture.
+- The fix causes visible professional cost: Lin Che is removed from the project group, Deng Yue is reassigned, and Xu Gong loses old-room access.
 
 Page grouping:
 
